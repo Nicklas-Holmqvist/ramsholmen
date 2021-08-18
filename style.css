@@ -52,6 +52,7 @@
 
 .about-section {
     height: 20rem;
+    background-color: #fafafa;
 }
 
 .about-content {
@@ -64,6 +65,7 @@
 
 footer {
     height: 25rem;
+    background-color: #fafafa;
 }
 
 .map-section {
@@ -72,6 +74,7 @@ footer {
 
 .contact-container {
     grid-column: 8;
+    
 }
 
 
