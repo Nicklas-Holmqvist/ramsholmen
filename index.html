@@ -10,34 +10,36 @@
 </head>
 <body>
     <main>
-        <header class="nav">
+        <header class="nav grid">
             <div class="symbol">
                 <img src="./assets/symbol.png" alt="symbol">
             </div>
             <div class="desktop-nav">
-                <ul>
+                <ul class="flex">
                     <li>Hem</li>
                     <li>Om oss</li>
                     <li>Produkter</li>
                     <li>Kontakta</li>
                 </ul>                
             </div>
-            <div class="mobile-nav">
-                <ul>
+            <!-- <div class="mobile-nav">
+                <ul class="flex column">
                     <li>Hem</li>
                     <li>Om oss</li>
                     <li>Produkter</li>
                     <li>Kontakta</li>
                 </ul> 
-            </div>
+            </div> -->
         </header>
         <div class="hero-section">
-            <!-- Logotyp -->
+            <img src="./assets/logotype.png" alt="">
             <button>Kontakta</button>
         </div>
-        <div class="about-section">
-            <p><span>Ramsholmen</span> har i flera generationer brukat och förfinat odlingskonsten av just solrosor.
-                Vi har lärt oss vilken jord som ger bäst skörd och på våra fina slätter där de växer har de skydd mot kraftiga vindar så de kan växa sig stora och fina. Morgonsolen värmer tidigt och skapar en tempererad gryta som håller värmen långt in på kvällarna. Med dessa förhållande kan vi ge er det bästa av det naturen kan ge er. Men det är inte bara hur det odlas som gör just vår produkt så bra. Utan själva rostningen har en stor del i processen också. För att få de så krispiga som möjligt men ändå kännas naturligt är en svår balans som har tagit många års exprementerande. När du äter våra rostade solrosskärnor vill vi ni ska få den bästa upplevelsen och känna kontakten till naturn.</p>
+        <div class="about-section grid">
+            <div class="about-content">
+                <p><span>Ramsholmen</span> har i flera generationer brukat och förfinat odlingskonsten av just solrosor.
+                    Vi har lärt oss vilken jord som ger bäst skörd och på våra fina slätter där de växer har de skydd mot kraftiga vindar så de kan växa sig stora och fina. Morgonsolen värmer tidigt och skapar en tempererad gryta som håller värmen långt in på kvällarna. Med dessa förhållande kan vi ge er det bästa av det naturen kan ge er. Men det är inte bara hur det odlas som gör just vår produkt så bra. Utan själva rostningen har en stor del i processen också. För att få de så krispiga som möjligt men ändå kännas naturligt är en svår balans som har tagit många års exprementerande. När du äter våra rostade solrosskärnor vill vi ni ska få den bästa upplevelsen och känna kontakten till naturn.</p>
+            </div>
         </div>
         <div class="product-section">
             <h2>Våra produkter</h2>
@@ -52,52 +54,50 @@
                 </div>
             </div>
         </div>
-        <footer>
+        <footer class="grid">
             <div class="map-section">
-
+                <img src="./assets/map.png" alt="">
             </div>
-            <div class="contact-section">
-                <div class="contact-container">
-                    <h3>Kontakta oss</h3>
-                    <div class="contact-info">
-                        <div class="contact-office">
-                            <h4>Kontoret</h4>
-                            <div class="person">
-                                <p>Ägare Mattias Karlsson</p>
-                                <p>Tel: 07012345678</p>
-                                <p>E-post: mattias@ramsholmen.se</p>
-                            </div>
-                            <div class="person">
-                                <p>Ekonomi Anna Karlsson</p>
-                                <p>Tel: 07012345678</p>
-                                <p>E-post: anna@ramsholmen.se</p>
-                            </div>
-                            <div class="person">
-                                <p>Produktansvarig Karl Karlsson</p>
-                                <p>Tel: 07012345678</p>
-                                <p>E-post: karl@ramsholmen.se</p>
-                            </div>
+            <div class="contact-container">
+                <h3>Kontakta oss</h3>
+                <div class="contact-info grid">
+                    <div class="contact-office">
+                        <h4>Kontoret</h4>
+                        <div class="person">
+                            <p>Ägare Mattias Karlsson</p>
+                            <p>Tel: 07012345678</p>
+                            <p>E-post: mattias@ramsholmen.se</p>
                         </div>
-                        <div class="contact-farm">
-                            <h4>Gården</h4>
-                            <div class="person">
-                                <p>Gårdsherre Klas-Göran Andersson</p>
-                                <p>Tel: 07012345678</p>
-                                <p>E-post: kg@ramsholmen.se</p>
-                            </div>
-                            <div class="person">
-                                <p>Dräng Emil Larsson</p>
-                                <p>Tel: 07012345678</p>
-                                <p>E-post: emil@ramsholmen.se</p>
-                            </div>
-                            <div class="person">
-                                <p>Piga Ida Nilsdotter</p>
-                                <p>Tel: 07012345678</p>
-                                <p>E-post: ida@ramsholmen.se</p>
-                            </div>
+                        <div class="person">
+                            <p>Ekonomi Anna Karlsson</p>
+                            <p>Tel: 07012345678</p>
+                            <p>E-post: anna@ramsholmen.se</p>
                         </div>
-                    </div>                    
-                </div>
+                        <div class="person">
+                            <p>Produktansvarig Karl Karlsson</p>
+                            <p>Tel: 07012345678</p>
+                            <p>E-post: karl@ramsholmen.se</p>
+                        </div>
+                    </div>
+                    <div class="contact-farm">
+                        <h4>Gården</h4>
+                        <div class="person">
+                            <p>Gårdsherre Klas-Göran Andersson</p>
+                            <p>Tel: 07012345678</p>
+                            <p>E-post: kg@ramsholmen.se</p>
+                        </div>
+                        <div class="person">
+                            <p>Dräng Emil Larsson</p>
+                            <p>Tel: 07012345678</p>
+                            <p>E-post: emil@ramsholmen.se</p>
+                        </div>
+                        <div class="person">
+                            <p>Piga Ida Nilsdotter</p>
+                            <p>Tel: 07012345678</p>
+                            <p>E-post: ida@ramsholmen.se</p>
+                        </div>
+                    </div>
+                </div>  
             </div>
         </footer>
     </main>

@@ -18,8 +18,63 @@
 
 .grid {
     display: grid;
+    grid-template-columns: repeat(12, 1fr);
 }
 
 .grid-center {
     justify-content: center;
 }
+
+.grid-6 {
+    grid-template-columns: 1fr 1fr
+}
+
+.grid-3 {
+    grid-template-columns: 1fr 1fr 1fr
+}
+
+.nav {
+    height: 4rem;
+}
+
+.symbol {
+    grid-column: 2/3;
+}
+
+.desktop-nav {
+    grid-column: 8/12;
+}
+
+.hero-section {
+    height: 25rem;
+    background-color: #f39200;
+}
+
+.about-section {
+    height: 20rem;
+}
+
+.about-content {
+    grid-column: 4/9
+}
+
+.product-section {
+    height: 25rem;
+}
+
+footer {
+    height: 25rem;
+}
+
+.map-section {
+    grid-column: 1/7;
+}
+
+.contact-container {
+    grid-column: 8;
+}
+
+
+/* .contact-info {
+    grid-template-columns: 50% 50%;
+} */
