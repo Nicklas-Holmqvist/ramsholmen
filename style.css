@@ -40,11 +40,29 @@
 
 h2 {
     text-align: center;
+    font-family: 'Arvo', serif;
 }
 
 h3 {
     text-align: center;
     padding-bottom: 1rem;
+    font-family: 'Arvo', serif;
+}
+
+h4 {
+    font-family: 'Arvo', serif;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+}
+
+li {
+    font-family: 'Poppins', sans-serif;
+}
+
+span {
+    font-weight: bold;
 }
 
 .nav {
@@ -140,11 +158,11 @@ footer {
     grid-template-columns: repeat(6, 1fr);
     width: 100%;   
     
-    margin: 0 0 5rem 0; 
+    /* margin: 0 0 5rem 0;  */
 }
 
 .contact-container > h3 {
-    padding-top: 5rem;
+    /* padding-top: 5rem; */
 }
 
 .contact-office {
