@@ -16,6 +16,11 @@
     flex-direction: row;
 }
 
+.center {
+    justify-content: center;
+    align-items: center;
+}
+
 .grid {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -33,6 +38,15 @@
     grid-template-columns: 1fr 1fr 1fr
 }
 
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
 .nav {
     height: 4rem;
 }
@@ -47,34 +61,88 @@
 
 .hero-section {
     height: 25rem;
-    background-color: #f39200;
+    background-color: #f39200;    
 }
 
 .about-section {
     height: 20rem;
     background-color: #fafafa;
+    justify-content: center;
+    align-content: center;
 }
 
 .about-content {
-    grid-column: 4/9
+    grid-column: 4/10;    
 }
 
 .product-section {
     height: 25rem;
+    margin: 5rem 0;
+}
+
+.products {
+    grid-template-columns: repeat(12, 1fr);
+    height: 93%;
+}
+
+.product-one {
+    grid-column: 4/6;
+}
+
+.product-two {
+    grid-column: 8/10
+}
+
+.product-image {
+    width: 100%;
+    height: 87%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.product-name > p {
+    text-align: center;
+    padding-top: 2rem;
 }
 
 footer {
     height: 25rem;
     background-color: #fafafa;
+    grid-template-columns: repeat(2, 1fr);
 }
 
 .map-section {
+    background-image: url(./assets/map.png);
+    background-size: cover;
     grid-column: 1/7;
 }
 
 .contact-container {
-    grid-column: 8;
+    grid-column: 7/13;
     
+}
+
+.contact-info {
+    grid-template-columns: repeat(6, 1fr);
+    width: 100%;   
+    
+    margin: 0 0 5rem 0; 
+}
+
+.contact-container > h3 {
+    padding-top: 5rem;
+}
+
+.contact-office {
+    grid-column: 2/4;
+}
+
+.contact-farm {
+    grid-column: 4/7;
+}
+
+.person {
+    padding: 1rem 0;
 }
 
 
