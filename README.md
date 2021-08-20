@@ -13,4 +13,12 @@ And as a flex user I tryed to use grid for the most part of the layout. It wasnÂ
 
 ### Ramsholmen.se
 [githubpages](https://nicklas-holmqvist.github.io/ramsholmen/)
+
+Resolution 1440
 ![thepage-1440](https://user-images.githubusercontent.com/70426543/130203651-f9a7c728-4a7e-42f2-a434-8894c707845d.png)
+
+Resolution 1024
+![thepage-1024](https://user-images.githubusercontent.com/70426543/130204404-8da88bc7-e94f-48c0-b456-04b56dad34e1.png)
+
+Resolution 640
+![thepage-640](https://user-images.githubusercontent.com/70426543/130204395-d76a6b78-23cd-4114-8331-a65af09d7e93.png)
