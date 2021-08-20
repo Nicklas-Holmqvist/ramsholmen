@@ -1,4 +1,4 @@
-# Ramsholmen
+# Ramsholmen.se
 
 ## Creating logotype and symbol
 Before the summer we had a assignment to create a graphic profile with logotype, symbol, colorscheme and fonts in Illustrator. And with this resource we had to use in this repo.
