@@ -68,6 +68,7 @@ span {
 .nav {
     height: 4rem;
     align-items: center;
+    background-color:#fafafa;
 }
 
 .symbol {
