@@ -17,6 +17,19 @@
         grid-column: 2/12;    
     }
 
+    .product-section {
+        height: 50rem;
+    }
+    
+    .product-one {
+        grid-column: 1/13;
+    }
+
+    .product-two {
+        grid-row: ;
+        grid-column: 1/13;
+    }
+
     .footer {
         height: 50rem;
     }
