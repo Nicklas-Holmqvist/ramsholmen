@@ -32,6 +32,7 @@ h2 {
     text-align: center;
     font-family: 'Arvo', serif;
     font-size: 2.25rem;
+    color: #342015;
 }
 
 h3 {
@@ -39,25 +40,30 @@ h3 {
     padding-bottom: 1rem;
     font-size: 1.25rem;
     font-family: 'Arvo', serif;
+    color: #342015;
 }
 
 h4 {
     font-family: 'Arvo', serif;
     font-size: 1rem;
+    color: #342015;
 }
 
 p {
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
+    color: #342015;
 }
 
 li {
     font-family: 'Arvo', serif;
     font-weight: 600;
+    color: #342015;
 }
 
 span {
     font-weight: bold;
+    color: #342015;
 }
 
 .nav {
@@ -125,6 +131,7 @@ span {
 
 .about-content > p {
     font-size: 1rem;
+    
 }
 
 .product-section {
