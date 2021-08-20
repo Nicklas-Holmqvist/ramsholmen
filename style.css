@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    line-height: 120%;
 }
 
 .flex {
@@ -41,6 +42,7 @@
 h2 {
     text-align: center;
     font-family: 'Arvo', serif;
+    font-size: 2rem;
 }
 
 h3 {
@@ -55,10 +57,12 @@ h4 {
 
 p {
     font-family: 'Poppins', sans-serif;
+    font-weight: 200;
 }
 
 li {
     font-family: 'Poppins', sans-serif;
+    font-weight: 200;
 }
 
 span {
@@ -91,13 +95,34 @@ span {
     text-align: center;
 }
 
+.hamburger-menu {
+    display: none;
+}
+
 .hero-section {
     height: 25rem;
     background-color: #f39200;    
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.hero-section > img {
+    width: 30rem;
+    height: auto;
+    padding-bottom: 2rem;
+}
+
+.btn {
+    width: 15rem;
+    height: 3rem;
+
+    background-color: #fafafa;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    font-size: 24px;
 }
 
 .about-section {
-    height: 20rem;
+    height: 25rem;
     background-color: #fafafa;
     justify-content: center;
     align-content: center;
@@ -105,6 +130,10 @@ span {
 
 .about-content {
     grid-column: 4/10;    
+}
+
+.about-content > p {
+    font-size: 1rem;
 }
 
 .product-section {
@@ -130,11 +159,13 @@ span {
     height: 87%;
     background-repeat: no-repeat;
     background-position: center;
+    background-size:contain;
 }
 
 .product-name > p {
     text-align: center;
     padding-top: 2rem;
+    font-size: 1rem;
 }
 
 footer {
@@ -175,6 +206,10 @@ footer {
 
 .person {
     padding: 1rem 0;
+}
+
+.person > p {
+    font-size: 12px;
 }
 
 

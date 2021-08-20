@@ -1,0 +1,12 @@
+@media (max-width: 64em) {
+
+    .about-content {
+        grid-column: 3/11;    
+    }
+
+    .hero-section > img {
+        width: 21rem;
+        height: auto;
+        padding-bottom: 2rem;
+    }
+}
