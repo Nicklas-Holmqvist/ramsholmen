@@ -17,17 +17,25 @@
         grid-column: 2/12;    
     }
 
+    .product-section > h2 {
+        padding-bottom:3rem;
+    }
+
     .product-section {
-        height: 50rem;
+        height: 42rem;
     }
     
     .product-one {
         grid-column: 1/13;
+        height: 100%;
+        justify-content: space-evenly;
+        padding-bottom:3rem;
     }
 
     .product-two {
-        grid-row: ;
+        height: 100%;
         grid-column: 1/13;
+        justify-content: space-evenly;
     }
 
     .footer {
