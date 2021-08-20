@@ -9,4 +9,12 @@
         height: auto;
         padding-bottom: 2rem;
     }
+
+    .map-section {
+        grid-column: 1/5;
+    }
+    
+    .contact-container {
+        grid-column: 5/13;        
+    }
 }

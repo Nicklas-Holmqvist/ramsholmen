@@ -16,4 +16,21 @@
     .about-content {
         grid-column: 2/12;    
     }
+
+    .footer {
+        height: 50rem;
+    }
+
+    
+    .map-section {
+        height: 25rem;
+        grid-row: 2;
+        grid-column: 1/13;
+    }
+    
+    .contact-container {
+        height: 25rem;
+        grid-row: 1;
+        grid-column: 1/13;        
+    }
 }
