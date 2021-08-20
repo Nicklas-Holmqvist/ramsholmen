@@ -1,5 +1,11 @@
 # Ramsholmen
 
+## Creating logotype and symbol
+Before the summer we had a assignment to create a graphic profile with logotype, symbol, colorscheme and fonts in Illustrator. And with this resource we had to use in this repo.
+
+### Graphic profile
+![grafisk profil](https://user-images.githubusercontent.com/70426543/130205460-d45c89c7-3661-45f2-9d7d-20a27d9fe48d.JPG)
+
 ## From wireframe to simple HTML
 We had as a school assignment in the course graphic tools for UI to make a wireframe, mockup and a simple HTML page of the result.
 I was using grid by 12 in Photoshop for my layout. To be the first time to make a wireframe and mockup it went so so but fun. Hard to get all the spaces between the objects right.
