@@ -27,32 +27,23 @@
     grid-template-columns: repeat(12, 1fr);
 }
 
-.grid-center {
-    justify-content: center;
-}
-
-.grid-6 {
-    grid-template-columns: 1fr 1fr
-}
-
-.grid-3 {
-    grid-template-columns: 1fr 1fr 1fr
-}
 
 h2 {
     text-align: center;
     font-family: 'Arvo', serif;
-    font-size: 2rem;
+    font-size: 2.25rem;
 }
 
 h3 {
     text-align: center;
     padding-bottom: 1rem;
+    font-size: 1.25rem;
     font-family: 'Arvo', serif;
 }
 
 h4 {
     font-family: 'Arvo', serif;
+    font-size: 1rem;
 }
 
 p {
@@ -61,8 +52,8 @@ p {
 }
 
 li {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 200;
+    font-family: 'Arvo', serif;
+    font-weight: 600;
 }
 
 span {
@@ -100,7 +91,7 @@ span {
 }
 
 .hero-section {
-    height: 25rem;
+    height: 31.25rem;
     background-color: #f39200;    
     grid-template-columns: repeat(12, 1fr);
 }
@@ -108,7 +99,7 @@ span {
 .hero-section > img {
     width: 30rem;
     height: auto;
-    padding-bottom: 2rem;
+    padding-bottom: 3rem;
 }
 
 .btn {
